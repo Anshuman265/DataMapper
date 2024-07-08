@@ -1,0 +1,127 @@
+,vf,ICICI,Abakkus
+0,Unique Id,CLIENTID,CLIENTID
+1,Investor Name,CLIENTNAME,CLIENTNAME
+2,Account Name,CLIENTNAME,CLIENTNAME
+3,Account Category,STATUS,STATUS
+4,Distributor,Null,Null
+5,IsHeldAway,True,True
+6,Auto Fee Mapping,NO,NO
+7,Email Address,EMAIL,EMAIL
+8,Mobile Number,MOBILE,MOBILE
+9,Gender,First Holder Gender,First Holder Gender
+10,Family Name,CLIENTNAME,CLIENTNAME
+11,Family Head,No,No
+12,Pan Number,PANNUMBER,PANNUMBER
+13,Birth Date,BIRTHDATE,BIRTHDATE
+14,Bank Account Name,Null,Null
+15,Bank AccountNumber,Null,Null
+16,IFSC Code,Null,Null
+17,Bank Name,Null,Null
+18,Branch Name,Null,Null
+19,Bank Account Type,Null,Null
+20,NRM/RIA,Null,Null
+21,Investor Type,Individual,Individual
+22,Guardian Name,Null,Null
+23,Guardian PAN,Null,Null
+24,Guardian Date of Birth,Null,Null
+25,Relation with minor,Null,Null
+26,Address Line 1,Null,Null
+27,Address Line 2,Null,Null
+28,Address Line 3,Null,Null
+29,City,Null,Null
+30,Pincode,Null,Null
+31,State,Null,Null
+32,Country of Birth,INDIA,INDIA
+33,Tax Resident Country,INDIA,INDIA
+34,Identification Number,PANNUMBER,PANNUMBER
+35,Identification Type,PAN card,PAN card
+36,Political Exposure Type,No,No
+37,Income Slab,>10 <= 25 Lacs,>10 <= 25 Lacs
+38,Wealth Source,Others,Others
+39,Occupation,Others,Others
+40,Holding Type,Null,Null
+41,Joint Holder1 Name,Null,Null
+42,Joint Holder1 Gender,Null,Null
+43,Joint Holder1 Pan Number,Null,Null
+44,Joint Holder1 Birth Date,Null,Null
+45,Joint Holder1 Country of Birth,Null,Null
+46,Joint Holder1 Tax Resident Country,Null,Null
+47,Joint Holder1 Identification Number,Null,Null
+48,Joint Holder1 Identification Type,Null,Null
+49,Joint Holder1 Political Exposure Type,Null,Null
+50,Joint Holder1 Income Slab,Null,Null
+51,Joint Holder1 Wealth Source,Null,Null
+52,Joint Holder1 Occupation,Null,Null
+53,Joint Holder2 Name,Null,Null
+54,Joint Holder2 Gender,Null,Null
+55,Joint Holder2 Pan Number,Null,Null
+56,Joint Holder2 Birth Date,Null,Null
+57,Joint Holder2 Country of Birth,Null,Null
+58,Joint Holder2 Tax Resident Country,Null,Null
+59,Joint Holder2 Identification Number,Null,Null
+60,Joint Holder2 Identification Type,Null,Null
+61,Joint Holder2 Political Exposure Type,Null,Null
+62,Joint Holder2 Income Slab,Null,Null
+63,Joint Holder2 Wealth Source,Null,Null
+64,Joint Holder2 Occupation,Null,Null
+65,Nominee1 Name,Null,Null
+66,Nominee1 Gender,Null,Null
+67,Nominee1 Birth Date,Null,Null
+68,Nominee1 Percentage,Null,Null
+69,Nominee1 Relation,Null,Null
+70,Nominee1 Address Line 1,Null,Null
+71,Nominee1 Address Line 2,Null,Null
+72,Nominee1 Address Line 3,Null,Null
+73,Nominee1 City,Null,Null
+74,Nominee1 Pincode,Null,Null
+75,Nominee1 State,Null,Null
+76,Nominee2 Name,Null,Null
+77,Nominee2 Gender,Null,Null
+78,Nominee2 Birth Date,Null,Null
+79,Nominee2 Percentage,Null,Null
+80,Nominee2 Relation,Null,Null
+81,Nominee2 Address Line 1,Null,Null
+82,Nominee2 Address Line 2,Null,Null
+83,Nominee2 Address Line 3,Null,Null
+84,Nominee2 City,Null,Null
+85,Nominee2 Pincode,Null,Null
+86,Nominee2 State,Null,Null
+87,Nominee3 Name,Null,Null
+88,Nominee3 Gender,Null,Null
+89,Nominee3 Birth Date,Null,Null
+90,Nominee3 Percentage,Null,Null
+91,Nominee3 Relation,Null,Null
+92,Nominee3 Address Line 1,Null,Null
+93,Nominee3 Address Line 2,Null,Null
+94,Nominee3 Address Line 3,Null,Null
+95,Nominee3 City,Null,Null
+96,Nominee3 Pincode,Null,Null
+97,Nominee3 State,Null,Null
+98,Bank Account Name 2,Null,Null
+99,Bank AccountNumber 2,Null,Null
+100,IFSC Code 2,Null,Null
+101,Bank Name 2,Null,Null
+102,Branch Name 2,Null,Null
+103,Bank Account Type 2,Null,Null
+104,Bank Account Name 3,Null,Null
+105,Bank AccountNumber 3,Null,Null
+106,IFSC Code 3,Null,Null
+107,Bank Name 3,Null,Null
+108,Branch Name 3,Null,Null
+109,Bank Account Type 3,Null,Null
+110,Bank Account Name 4,Null,Null
+111,Bank AccountNumber 4,Null,Null
+112,IFSC Code 4,Null,Null
+113,Bank Name 4,Null,Null
+114,Branch Name 4,Null,Null
+115,Bank Account Type 4,Null,Null
+116,Bank Account Name 5,Null,Null
+117,Bank AccountNumber 5,Null,Null
+118,IFSC Code 5,Null,Null
+119,Bank Name 5,Null,Null
+120,Branch Name 5,Null,Null
+121,Bank Account Type 5,Null,Null
+122,RM Code,9999,9999
+123,Demat Account Number,Null,Null
+124,Depository participant Id,Null,Null
+125,Depository participant Name,Null,Null
