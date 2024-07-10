@@ -1,6 +1,6 @@
 # Importing the required library
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog,messagebox
 import csv
 import pandas as pd
 
@@ -51,6 +51,7 @@ class Application(tk.Tk):
         self.add_format_button.pack(side="left")
 
         # Create mapping columns
+        # Add entry widget in the loop
         self.desired_column = tk.Listbox(self.mapping_frame, width=20)
         idx = 1
         for x in list(mapping["vf"]):
@@ -85,8 +86,13 @@ class Application(tk.Tk):
                 
     def add_format(self):
         format_name = tk.simpledialog.askstring("Add new format", "Enter format name:")
-        df.loc[len(df)] = format_name
-        df.to_csv("options.csv")
+        if format_name:
+            new_format = pd.DataFrame([{ 'Options': format_name }])
+            df_2 = pd.concat([df, new_format], ignore_index=True)
+            df_2.to_csv("options.csv",index=False)
+            messagebox.showinfo("Info", "Format added successfully. The application will reload.")
+            reload_app()
+
 
     def download_file(self):
         if self.uploaded_file and self.desired_format:
@@ -96,6 +102,17 @@ class Application(tk.Tk):
                 desired_df[self.desired_column.get(i)] = uploaded_df[self.uploaded_column.get(i)]
             desired_df.to_csv(f"{self.desired_format}.csv", index=False)
 
-if __name__ == "__main__":
+def reload_app():
+    app.destroy()
+    main()
+
+def main():
+    global df, mapping, options_list, app
+    df = pd.read_csv("options.csv")
+    mapping = pd.read_csv("mapping.csv")
+    options_list = df['Options'].tolist()
     app = Application()
     app.mainloop()
+
+if __name__ == "__main__":
+    main()
